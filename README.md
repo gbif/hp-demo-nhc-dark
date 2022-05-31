@@ -1,6 +1,6 @@
-[![Build Status](https://builds.gbif.org/job/hp-nhc-template/badge/icon)](https://builds.gbif.org/job/hp-nhc-template/lastBuild/console)
+[![Build Status](https://builds.gbif.org/job/hp-demo-nhc-dark/badge/icon)](https://builds.gbif.org/job/hp-demo-nhc-dark/lastBuild/console)
 
-# Natural history Museum template demo site
+# Natural history Museum demo site
 
 in progress
 
