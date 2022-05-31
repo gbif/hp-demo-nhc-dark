@@ -1,0 +1,138 @@
+$navbar-breakpoint: 10000px; // always show burger menu
+@import "theme/_main";
+
+$yellow-bg: #FAF0CA;
+
+// You can add additional styling here
+.navbar-item img {
+  max-height: 2.5em;
+}
+.navbar-logo_text {
+  white-space: nowrap;
+  margin-left: 0.75em;
+  font-size: 1.4em;
+}
+
+.home {
+  background: $yellow-bg;
+}
+
+.floatingHero.home {
+  .feature-content {
+    text-align: left;
+    width: 800px;
+    margin: auto;
+    max-width: 100%;
+    max-width: calc(100% - 24px);
+  }
+  .feature-description {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: $navbar-breakpoint) {
+  .navbar {
+    // background: $navbar-background-color!important
+    &--hasWhiteText {
+      .navbar-logo_text {
+        color: $yellow-bg; }
+      .navbar-burger {
+        color: $yellow-bg; } } } }
+
+.features {
+  background: $yellow-bg;
+  padding-top: 3rem;
+  padding-bottom: 4rem; }
+
+.feature {
+  flex: 0 0 $card-width;
+  max-width: 100%;
+  margin: $card-gap;
+  overflow: hidden;
+  box-shadow: none;
+  border: 1px solid #fec40e;
+  background: transparent;
+  .feature-img {
+    height: 0;
+    width: 100%;
+    padding-bottom: 60%;
+  .feature-content {
+    padding: 24px; }
+  .feature-description {
+    color: #021D3D; }
+  .feature-title {
+    margin-top: 0!important; }
+
+  .splitBanner {
+  display: flex;
+  max-width: 2000px;
+  margin: auto;
+  background: #FDC333;
+  >div {
+    flex: 0 0 50%; }
+  .feature-content {
+    padding: 5rem;
+    font-size: 120%; }
+  &--reverse {
+    flex-direction: row-reverse; }
+  .feature-title {
+    margin-top: 0!important; }}}}
+
+.floatingHero.home {
+  .feature-content {
+    text-align: left;
+    width: 800px;
+    margin: auto;
+  }
+  .feature-description {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: $yellow-bg;
+  }
+}
+
+.button.is-primary {
+    background-color: #021D3D;
+    border-color: transparent;
+    color: $yellow-bg;
+    &:hover {
+        background-color: #003566;
+    border-color: transparent;
+    color: $yellow-bg;
+    }
+}
+
+.button.is-outlined {
+    background-color: $yellow-bg;
+    border-color: transparent;
+    color: #021D3D;
+    &:hover {
+        background-color: #FFC300;
+    border-color: transparent;
+    color: #021D3D;
+    }
+}
+
+section {
+  &.features, &.splitBanner, &.textBanner {
+    border-bottom: none; } }
+
+section.splitBanner {
+background-color: #fec40e;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-logo_text {
+    display: none;
+  }
+}
+
+.footer {
+    background-color: #fafafa;
+    padding: 1.5rem 1.5rem 1.5rem;
+}
