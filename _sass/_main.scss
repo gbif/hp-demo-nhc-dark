@@ -4,6 +4,30 @@ $navbar-breakpoint: 10000px; // always show burger menu
 $yellow-bg: #FAF0CA;
 
 // You can add additional styling here
+
+//anything below this line is related to the specific site styling. It can be deleted or modified as you desire.
+.feedbackButton {
+  background: #4caf50;
+  padding: 12px;
+  border-radius: 4px 4px 0 0;
+  display: block!important;
+  position: fixed;
+  color: white;
+  right: 24px;
+  bottom: 0;
+  z-index: 10000;
+  button {
+    background: none;
+    border: none;
+    color: inherit;
+    font-weight: 500;
+  }
+}
+#demoInfoModal .content {
+  a {
+    color: deepskyblue;
+  }
+}
 .navbar-item img {
   max-height: 2.5em;
 }
