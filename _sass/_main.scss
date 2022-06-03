@@ -374,3 +374,11 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     margin-top: 12px;
     color: #4cc9f0;
 }
+
+
+element.style {
+}
+.menu-list a:hover, .footer-links a:hover, .toc ul a:hover {
+    background-color: #39414b;
+    color: #fff;
+}
