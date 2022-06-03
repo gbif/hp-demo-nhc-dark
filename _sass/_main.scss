@@ -1,7 +1,9 @@
 $navbar-breakpoint: 10000px; // always show burger menu
 @import "theme/_main";
 
-$yellow-bg: #FAF0CA;
+$dark-bg: #FAF0CA;
+$blue: #4CC9F0;
+$purple: #720EB7;
 
 // You can add additional styling here
 
@@ -39,7 +41,7 @@ $yellow-bg: #FAF0CA;
 }
 
 .home {
-  background: $yellow-bg;
+  background: $dark-bg;
 }
 
 .floatingHero.home {
@@ -63,12 +65,12 @@ $yellow-bg: #FAF0CA;
     // background: $navbar-background-color!important
     &--hasWhiteText {
       .navbar-logo_text {
-        color: $yellow-bg; }
+        color: $blue; }
       .navbar-burger {
-        color: $yellow-bg; } } } }
+        color: $blue; } } } }
 
 .features {
-  background: $yellow-bg;
+  background: $dark-bg;
   padding-top: 3rem;
   padding-bottom: 4rem; }
 
@@ -122,7 +124,7 @@ $yellow-bg: #FAF0CA;
 }
 
 .button.is-primary {
-    background-color: #021D3D;
+    background-color: $purple;
     border-color: transparent;
     color: $yellow-bg;
     &:hover {
@@ -133,7 +135,7 @@ $yellow-bg: #FAF0CA;
 }
 
 .button.is-outlined {
-    background-color: $yellow-bg;
+    background-color: $blue;
     border-color: transparent;
     color: #021D3D;
     &:hover {
