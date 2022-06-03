@@ -84,13 +84,11 @@ body {
   padding-bottom: 4rem; 
   .features-intro {
     .feature-content {
-      .feature-text {
-        .feature-description {
+      .feature-description {
          color: #fff; } 
       }
     }
   }
-}
 
 .feature {
   flex: 0 0 $card-width;
