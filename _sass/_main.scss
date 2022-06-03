@@ -340,3 +340,8 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     background-color: #4a4a4a;
     padding: 1.5rem 1.5rem 1.5rem;
 }
+
+.menu-label:not(:last-child), .footer-column-name:not(:last-child), .toc_header:not(:last-child) {
+    margin-bottom: 1em;
+    color: #4CC9F0;
+}
