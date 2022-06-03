@@ -1,13 +1,16 @@
 $navbar-breakpoint: 10000px; // always show burger menu
 @import "theme/_main";
 
-$yellow-bg: #FAF0CA;
-
+$dark-bg: #272C33;
+$blue: #4CC9F0;
+$purple: #720EB7;
+  
+  
 // You can add additional styling here
 
 //anything below this line is related to the specific site styling. It can be deleted or modified as you desire.
 .feedbackButton {
-  background: #F95738;
+  background: #F72585;
   padding: 12px;
   border-radius: 4px 4px 0 0;
   display: block!important;
@@ -39,7 +42,7 @@ $yellow-bg: #FAF0CA;
 }
 
 .home {
-  background: $yellow-bg;
+  background: $dark-bg;
 }
 
 .floatingHero.home {
