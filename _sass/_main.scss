@@ -98,9 +98,10 @@ body {
   .feature-content {
     padding: 24px; }
   .feature-description {
-    color: $blue; }
+    color: #fff; }
   .feature-title {
-    margin-top: 0!important; }
+    margin-top: 0!important; 
+    color: #fff;}
 
   .splitBanner {
   display: flex;
