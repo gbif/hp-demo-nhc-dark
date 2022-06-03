@@ -358,3 +358,12 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     margin-top: 1.1428em;
     color: #fff;
 }
+
+.postHeader .feature-img {
+    height: 0;
+    padding-bottom: 40%;
+    width: 100%;
+    margin: auto;
+    border: none;
+    background-color: #eee;
+}
