@@ -105,13 +105,13 @@ body {
   .feature-content {
     padding: 24px; 
     color: #fff; }
+    .feature-text {
+      color: $blue; }
+    .feature-title {
+      margin-top: 0!important; 
+      color: #fff;}
   .feature-description {
     color: #fff; }
-  .feature-title {
-    margin-top: 0!important; 
-    color: #fff;}
-  .feature-text {
-  color: $blue; }
   }
 
   .splitBanner {
