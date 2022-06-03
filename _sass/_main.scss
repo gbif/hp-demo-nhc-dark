@@ -81,7 +81,16 @@ body {
 .features {
   background: $dark-bg;
   padding-top: 3rem;
-  padding-bottom: 4rem; }
+  padding-bottom: 4rem; 
+  .features-intro {
+    .feature-content {
+      .feature-text {
+        .feature-description {
+         color: #fff; } 
+      }
+    }
+  }
+}
 
 .feature {
   flex: 0 0 $card-width;
@@ -137,6 +146,8 @@ body {
     color: #fff;
   }
 }
+
+
 
 .button.is-primary {
     background-color: $purple;
