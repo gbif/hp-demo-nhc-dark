@@ -130,7 +130,9 @@ body {
     flex-direction: row-reverse; }
   .feature-title {
     margin-top: 0!important;
-    color: $dark-bg; }}
+    color: $dark-bg; 
+    .feature-description {
+    color: $dark-bg; }}}
 
 .floatingHero.home {
   .feature-content {
