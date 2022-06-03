@@ -42,7 +42,7 @@ $purple: #720EB7;
 }
 
 body {
-    background-color: $dark-bg;
+    background-color: #39414b;
     color: #fff;
     font-size: 1em;
     font-weight: 400;
@@ -352,4 +352,9 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     color: #4CC9F0;
     display: block;
     padding: 0.5em 0.75em;
+}
+
+.content h2:not(:first-child), .feature-content h2:not(:first-child) {
+    margin-top: 1.1428em;
+    color: #fff;
 }
