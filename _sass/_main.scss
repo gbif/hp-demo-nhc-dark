@@ -145,7 +145,10 @@ body {
   }
 }
 
-
+.postHeader {
+  .feature-text {
+  color: $dark-bg; }
+}
 
 .button.is-primary {
     background-color: $purple;
