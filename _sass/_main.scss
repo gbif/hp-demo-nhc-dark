@@ -164,10 +164,6 @@ section {
   &.features, &.splitBanner, &.textBanner {
     border-bottom: none; } }
 
-section.splitBanner {
-background-color: #fec40e;
-}
-
 @media screen and (max-width: 600px) {
   .navbar-logo_text {
     display: none;
